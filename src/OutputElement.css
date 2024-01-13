@@ -1,0 +1,36 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  padding: 0.75rem;
+  margin: 1rem 0.3rem;
+  border-radius: 15px;
+  transition: all 0.3s linear;
+  gap: 10px;
+}
+li div {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: white;
+  width: 80%;
+  position: relative;
+  /* margin-top: 1rem; */
+}
+.strike{
+  text-decoration: line-through 2.5px red;
+}
+li button {
+  width: 20%;
+  border: none;
+  background: rgb(233, 233, 233);
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  width: 25%;
+  padding: .6rem;
+}
+li button:hover {
+  background: rgba(255, 255, 255, 0.247);
+  color: white;
+}

@@ -1,0 +1,19 @@
+.output {
+  background: rgb(192, 178, 192);
+  padding: 0.75rem;
+  border-radius: 13px;
+}
+
+ul {
+  list-style: none;
+  border-radius: 20px;
+}
+.clear {
+  width: 20%;
+  border: none;
+  background: white;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 0.75rem;
+  cursor: pointer;
+}
